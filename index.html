@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food LLC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Food LLC Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Order Online</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Food LLC</h1>
+        <p>Your favorite food delivered fast!</p>
+        <a href="#" class="btn">Order Now</a>
+    </section>
+
+    <section class="menu">
+        <!-- Your menu items go here -->
+        <div class="menu-item">
+            <img src="pizza.jpg" alt="Pizza">
+            <h2>Pizza</h2>
+            <p>Delicious pizza with your choice of toppings.</p>
+            <p class="price">$10.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Add more menu items as needed -->
+    </section>
+
+    <section class="cart">
+        <h2>Cart</h2>
+        <ul class="cart-items">
+            <!-- Cart items will be added here using JavaScript -->
+        </ul>
+        <p>Total: <span id="cart-total">$0.00</span></p>
+        <button id="checkout">Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Food LLC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
